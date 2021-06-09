@@ -1,0 +1,187 @@
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("https://image.freepik.com/foto-gratis/pared-ladrillo-textura-fondo_1203-3286.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Open sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+p {
+  display: block;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+}
+
+/*HEADER*/
+header {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+header #title {
+  margin-top: 1rem;
+  margin-bottom: 1.4375rem;
+  text-align: center;
+}
+
+header #description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*MAIN*/
+main {
+  margin: 0.5rem;
+  padding: 0.70rem;
+  display: block;
+}
+
+main #survey-form {
+  margin: 0 auto;
+  padding: 1.05rem;
+  background: rgba(132, 132, 132, 0.7);
+  display: block;
+  border-radius: 2%;
+  width: 40%;
+}
+
+main #survey-form .group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+main #survey-form .group label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.7rem;
+  margin-left: 2em;
+}
+
+main #survey-form .group .input-control {
+  display: block;
+  width: 90%;
+  height: 2.18rem;
+  margin: 0 auto;
+  padding: 0.380rem 0.8rem;
+  color: #495057;
+  border: none;
+  border-radius: 3%;
+}
+
+main #survey-form .group .input-check {
+  display: inline-block;
+  margin-right: 0.4rem;
+  min-height: 1.05rem;
+  min-width: 1.05rem;
+}
+
+main #survey-form .group textarea {
+  display: block;
+  margin: 0 auto;
+  padding: 0.6rem;
+  min-height: 8.75rem;
+  width: 90%;
+  border: none;
+  border-radius: 2%;
+  resize: vertical;
+}
+
+main #survey-form .group #submit {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0.75rem;
+  width: 90%;
+  background: #71c5e7;
+  color: #fff;
+  border-radius: 3%;
+  border: none;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*MEDIA QUERIES*/
+/*Moble site*/
+@media screen and (min-width: 320px) {
+  header p {
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+  main #survey-form {
+    width: 90%;
+  }
+  main #survey-form .group label {
+    margin-left: 0.9rem;
+  }
+  main #survey-form .group p {
+    margin-left: 1rem;
+  }
+  footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/*Tablet site*/
+@media screen and (min-width: 600px) {
+  main #survey-form .group label {
+    margin-left: 1.9rem;
+  }
+  main #survey-form .group p {
+    margin-left: 2rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  main #survey-form .group label {
+    margin-left: 2.6rem;
+  }
+  main #survey-form .group p {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  main #survey-form {
+    width: 45%;
+  }
+  main #survey-form .group p {
+    margin-left: 2.7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
